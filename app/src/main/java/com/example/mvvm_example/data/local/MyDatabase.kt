@@ -1,7 +1,7 @@
-package com.example.testkoin.data.local
+package com.example.mvvm_example.data.local
 import android.content.Context
 import androidx.room.*
-import com.example.testkoin.data.local.model.Student
+import com.example.mvvm_example.data.local.model.Student
 
 @Database(entities = [Student::class], version = 1)
 

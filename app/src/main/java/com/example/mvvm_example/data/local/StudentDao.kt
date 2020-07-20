@@ -1,12 +1,9 @@
-package com.example.testkoin.data.local
+package com.example.mvvm_example.data.local
 
-import android.telecom.Call
-import androidx.lifecycle.LiveData
 import androidx.room.Dao
-import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.testkoin.data.local.model.Student
+import com.example.mvvm_example.data.local.model.Student
 
 @Dao
 interface StudentDao {

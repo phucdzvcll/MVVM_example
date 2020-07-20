@@ -1,13 +1,12 @@
-package com.example.testkoin.ui.view
+package com.example.mvvm_example.ui.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.testkoin.R
-import com.example.testkoin.data.local.model.Student
-import com.example.testkoin.ui.adapter.MyAdapter
-import com.example.testkoin.viewmodel.MainViewModel
+import com.example.mvvm_example.R
+import com.example.mvvm_example.ui.adapter.MyAdapter
+import com.example.mvvm_example.viewmodel.MainViewModel
 import kotlinx.android.synthetic.main.activity_main.*
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

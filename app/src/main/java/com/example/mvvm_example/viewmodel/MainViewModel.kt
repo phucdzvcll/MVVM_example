@@ -1,11 +1,11 @@
-package com.example.testkoin.viewmodel
+package com.example.mvvm_example.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.testkoin.data.local.model.Student
-import com.example.testkoin.data.repository.RepoRepository
+import com.example.mvvm_example.data.local.model.Student
+import com.example.mvvm_example.data.repository.RepoRepository
 import kotlinx.coroutines.*
 
 class MainViewModel(private val repoRepository: RepoRepository) : ViewModel() {

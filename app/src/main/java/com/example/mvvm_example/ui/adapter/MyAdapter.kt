@@ -1,11 +1,11 @@
-package com.example.testkoin.ui.adapter
+package com.example.mvvm_example.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.example.testkoin.R
-import com.example.testkoin.data.local.model.Student
+import com.example.mvvm_example.R
+import com.example.mvvm_example.data.local.model.Student
 import kotlinx.android.synthetic.main.row_student.view.*
 
 

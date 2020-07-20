@@ -1,8 +1,7 @@
-package com.example.testkoin.data.repository
+package com.example.mvvm_example.data.repository
 
-import androidx.lifecycle.LiveData
-import com.example.testkoin.data.local.StudentDao
-import com.example.testkoin.data.local.model.Student
+import com.example.mvvm_example.data.local.StudentDao
+import com.example.mvvm_example.data.local.model.Student
 import kotlinx.coroutines.delay
 
 class RepoRepositoryIlmt(private val studentDao: StudentDao) : RepoRepository {

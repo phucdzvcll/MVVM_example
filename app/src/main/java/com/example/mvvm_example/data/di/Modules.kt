@@ -1,9 +1,9 @@
-package com.example.testkoin.data.di
+package com.example.mvvm_example.data.di
 
-import com.example.testkoin.data.local.MyDatabase
-import com.example.testkoin.data.repository.RepoRepository
-import com.example.testkoin.data.repository.RepoRepositoryIlmt
-import com.example.testkoin.viewmodel.MainViewModel
+import com.example.mvvm_example.data.local.MyDatabase
+import com.example.mvvm_example.data.repository.RepoRepository
+import com.example.mvvm_example.data.repository.RepoRepositoryIlmt
+import com.example.mvvm_example.viewmodel.MainViewModel
 import org.koin.android.ext.koin.androidContext
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module

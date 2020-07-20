@@ -1,4 +1,4 @@
-package com.example.testkoin
+package com.example.mvvm_example
 
 import org.junit.Test
 

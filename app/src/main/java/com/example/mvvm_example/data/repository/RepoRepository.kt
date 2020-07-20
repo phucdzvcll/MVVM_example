@@ -1,7 +1,6 @@
-package com.example.testkoin.data.repository
+package com.example.mvvm_example.data.repository
 
-import androidx.lifecycle.LiveData
-import com.example.testkoin.data.local.model.Student
+import com.example.mvvm_example.data.local.model.Student
 
 interface RepoRepository {
 

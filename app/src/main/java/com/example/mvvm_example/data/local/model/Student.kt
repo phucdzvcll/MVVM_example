@@ -1,4 +1,4 @@
-package com.example.testkoin.data.local.model
+package com.example.mvvm_example.data.local.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
